@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    width:600px;
+    flex-wrap: wrap;
+}
+.main div{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+.main div:hover{
+    background-color: darkblue;
+}
