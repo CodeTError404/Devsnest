@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.main{
+    margin: auto;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    
+}
+.items{
+    border: 1px solid slateblue;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    color:white;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+.occupied{
+    border: none;
+    background-color: #fff;
+}
